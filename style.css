@@ -1,0 +1,96 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #0278AE;
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: #A5ECD7;
+}
+h2{
+    color:#51ADCF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+#one,#two{
+    background: #E8FFC1;
+    padding: 15px;
+    width:200px;
+    font-size: 20px;
+}
+.color{
+    color: #BA6B57;
+}
+.colorOne{
+    color: #FF8AB4;
+}
+.colorTwo{
+    color: #CD9D77;
+}
+.colorChange{
+    color:#894949;
+}
+.colorThree{
+    color:#E86ED0;
+}
+.colorFour{
+    color:#FF008E;
+}
+.colorFive{
+    color:#F33535;
+}
+.colorSix{
+    color:#854777;
+}
+.colorSeven{
+    color:#CD0A0A;
+}
+
+@media all and (max-width: 800px) {
+    body{
+        width:700px;
+    }
+    #myImage{
+        width:590px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    #one,#two{
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 500px) {
+    body{
+        width:350px;
+    }
+    #myImage{
+        width:290px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 23px;
+    }
+    #one,#two{
+        width:150px;
+        font-size: 15px;
+    }
+    
+
+}
